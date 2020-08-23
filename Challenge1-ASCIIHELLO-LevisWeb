@@ -1,0 +1,64 @@
+"""
+LevisWeb Challenge #1
+ASCIIHELLO!
+by Chase
+"""
+
+#-----------------------------------------------------------------------------
+# Know how to import libraries
+
+import pyfiglet
+
+#-----------------------------------------------------------------------------
+#Demonstrating print text and strings
+
+#variables
+
+a = "printing"
+b = "strings"
+c = "is"
+d = "fun"
+e = "when using variables"
+print("Demonstrating how to print text using print")
+print (a,b,c,d,e)
+
+#-----------------------------------------------------------------------------
+#Print ASCII Art text
+
+text = "Chase"
+print(text)
+result = pyfiglet.figlet_format(text, font="banner3-D")
+print(result)
+
+#-----------------------------------------------------------------------------
+# print ASCII art as your symbol for future challenges!
+# BONUS CHALLENGE: Print art using ONE print statement!
+
+
+asciiart = '''
+            ______              
+         .-'      `-.           
+       .'            `.         
+      /                \        
+     ;                 ;`       
+     |                 |;       
+     ;                 ;|
+     '\               / ;       
+      \`.           .' /        
+       `.`-._____.-' .'         
+         / /`_____.-'           
+        / / /                   
+       / / /
+      / / /
+     / / /
+    / / /
+   / / /
+  / / /
+ / / /
+/ / /
+\/_/
+'''
+ 
+print (asciiart)
+
+#-----------------------------------------------------------------------------
